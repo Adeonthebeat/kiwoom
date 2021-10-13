@@ -1,0 +1,4 @@
+[2020-12-12 23:53:56,128] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-12 23:53:57,115] I pytrader.py | Kiwoom-trade_stocks-0047 I DEBUG    > ### trade Stock ###
+[2020-12-12 23:59:22,199] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-12 23:59:23,192] I pytrader.py | Kiwoom-trade_stocks-0047 I DEBUG    > ### trade Stock ###

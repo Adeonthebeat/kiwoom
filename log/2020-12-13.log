@@ -1,0 +1,88 @@
+[2020-12-13 00:01:30,272] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:02:20,140] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:02:55,694] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:04:16,645] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:05:03,126] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:05:03,163] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:05:13,565] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:06:29,546] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:06:47,999] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:06:48,033] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:08:39,393] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:08:42,093] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:08:42,127] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:13:06,396] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:13:07,631] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:13:07,666] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:22:49,012] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:22:52,656] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:22:52,690] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:28:39,963] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:28:42,615] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:28:42,695] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:36:28,467] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:38:16,972] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:38:21,883] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:38:21,918] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:40:21,012] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:40:23,034] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:40:23,069] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:43:41,299] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:43:42,430] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:43:42,465] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:45:54,623] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:45:56,475] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:45:56,509] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:47:12,252] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:47:14,737] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:47:14,770] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:49:13,614] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:54:27,697] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:54:46,245] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:54:48,822] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:54:48,856] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:56:16,005] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:56:18,109] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:56:18,143] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:58:13,056] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:58:14,246] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:58:14,280] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:59:01,261] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:59:03,030] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:59:03,065] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:59:33,145] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 00:59:34,910] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 00:59:34,943] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:01:04,647] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:01:05,840] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:01:05,874] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:01:30,125] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:01:31,815] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:01:31,849] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:01:58,694] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:02:01,739] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:02:01,765] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:04:20,839] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:04:21,952] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:04:21,987] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:04:54,527] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:04:56,217] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:04:56,251] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:06:17,312] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:06:19,946] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:06:19,969] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:06:39,164] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:06:40,850] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:06:40,874] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:06:52,766] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:06:53,758] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:06:53,792] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:07:10,618] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:07:11,657] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:07:11,690] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:07:22,309] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:07:23,387] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:07:23,421] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:08:05,801] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8150158411;
+[2020-12-13 01:08:07,702] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-12-13 01:08:07,736] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다

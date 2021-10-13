@@ -1,0 +1,28 @@
+[2021-10-12 23:30:43,378] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-12 23:30:44,382] I pytrader.py | Kiwoom-trade_stocks-0048 I DEBUG    > ### trade Stock ###
+[2021-10-12 23:30:44,382] I pytrader.py | Kiwoom-trade_stocks-0062 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-12 23:30:45,497] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-12 23:30:45,564] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 009270 신원
+
+[2021-10-12 23:34:02,044] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-12 23:34:02,244] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-12 23:34:02,305] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 009270 신원
+
+[2021-10-12 23:34:02,305] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-12 23:34:02,305] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 220260 켐트로스
+
+[2021-10-12 23:34:02,306] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 222080 씨아이에스
+
+[2021-10-12 23:34:16,042] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-12 23:34:16,246] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-12 23:34:16,306] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 009270 신원
+
+[2021-10-12 23:34:16,307] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-12 23:34:16,307] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 220260 켐트로스
+
+[2021-10-12 23:34:16,307] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 222080 씨아이에스
+
+[2021-10-12 23:34:17,038] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-12 23:34:17,039] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###

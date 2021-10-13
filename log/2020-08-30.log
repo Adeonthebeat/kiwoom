@@ -1,0 +1,7 @@
+[2020-08-30 16:55:19,404] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 0101, 요청이름: send_order_req, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-08-30 16:55:19,430] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 0101, 요청이름: send_order_req, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-08-30 16:55:19,434] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 0101, 요청이름: send_order_req, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-08-30 16:55:19,437] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 0101, 요청이름: send_order_req, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-08-30 16:55:19,441] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 0101, 요청이름: send_order_req, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-08-30 16:55:36,287] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-08-30 16:55:36,309] I Kiwoom.py | Kiwoom-msg_slot-0053 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다

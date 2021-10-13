@@ -1,0 +1,3 @@
+[2020-08-23 15:57:03,456] I pytrader.py | Kiwoom-__init__-0020 I DEBUG    > 일격필살나선환 start.
+[2020-08-23 17:48:52,706] I Kiwoom.py | Kiwoom-msg_slot-0055 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-08-23 17:50:52,671] I Kiwoom.py | Kiwoom-msg_slot-0055 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다

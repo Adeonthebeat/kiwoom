@@ -1,0 +1,108 @@
+[2021-10-13 11:09:20,188] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:09:20,703] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:09:20,797] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:09:20,797] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:09:53,668] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:09:53,871] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:09:53,950] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:09:53,950] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:09:54,669] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-13 11:09:54,669] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-13 11:09:56,786] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:10:48,772] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:10:49,022] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:10:49,100] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:10:49,100] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:10:49,772] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-13 11:10:49,772] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-13 11:10:51,593] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:11:21,190] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:11:21,393] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:11:21,487] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:11:21,487] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:11:22,190] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-13 11:11:22,190] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-13 11:11:22,720] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:15:45,439] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:15:45,654] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:15:45,709] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:15:45,710] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:22:15,476] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:22:15,675] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:22:15,769] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:22:15,769] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:22:16,486] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-13 11:22:16,486] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-13 11:22:22,450] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:22:27,196] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 성장형(장기) 실행 
+[2021-10-13 11:22:27,294] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 014680 한솔케미칼
+
+[2021-10-13 11:22:27,295] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 021240 코웨이
+
+[2021-10-13 11:22:27,295] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 033290 코웰패션
+
+[2021-10-13 11:22:27,296] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 036120 SCI평가정보
+
+[2021-10-13 11:22:27,296] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 036570 엔씨소프트
+
+[2021-10-13 11:22:27,296] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 046210 파나진
+
+[2021-10-13 11:22:27,297] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 053580 웹케시
+
+[2021-10-13 11:22:27,297] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 096530 씨젠
+
+[2021-10-13 11:22:27,298] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 099430 바이오플러스
+
+[2021-10-13 11:22:27,298] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 101160 월덱스
+
+[2021-10-13 11:22:27,298] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 137310 에스디바이오센서
+
+[2021-10-13 11:22:27,299] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 187660 에이디엠코리아
+
+[2021-10-13 11:22:27,299] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 230360 에코마케팅
+
+[2021-10-13 11:22:27,299] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 285490 노바텍
+
+[2021-10-13 11:22:27,300] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 298540 더네이쳐홀딩스
+
+[2021-10-13 11:22:27,300] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 348210 넥스틴
+
+[2021-10-13 11:22:27,300] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 352700 씨앤투스성진
+
+[2021-10-13 11:24:05,894] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:24:06,101] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:24:06,172] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:24:06,173] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:24:06,894] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-13 11:24:06,894] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-13 11:26:09,399] I pytrader.py | Kiwoom-__init__-0034 I DEBUG    > ### accounts ### 8010162711;
+[2021-10-13 11:26:09,603] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 눌림목 실행 
+[2021-10-13 11:26:09,683] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 002880 대유에이텍
+
+[2021-10-13 11:26:09,683] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 011500 한농화성
+
+[2021-10-13 11:26:10,402] I pytrader.py | Kiwoom-trade_stocks-0049 I DEBUG    > ### trade Stock ###
+[2021-10-13 11:26:10,403] I pytrader.py | Kiwoom-trade_stocks-0063 I DEBUG    > ### account :::: 8010162711 ###
+[2021-10-13 11:26:22,563] I Kiwoom.py | Kiwoom-sendCondition-0409 I DEBUG    > 중소형주 실행 
+[2021-10-13 11:26:22,649] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 900310 컬러레이
+
+[2021-10-13 11:26:22,649] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 900280 골든센츄리
+
+[2021-10-13 11:26:22,650] I Kiwoom.py | Kiwoom-receiveTrCondition-0365 I DEBUG    > 900250 크리스탈신소재
+
+[2021-10-13 11:26:35,729] I Kiwoom.py | Kiwoom-msg_slot-0071 I DEBUG    > 스크린: 2000, 요청이름: opw00018_req, tr코드: opw00018 --- [100000] 모의투자 조회완료
+[2021-10-13 11:26:35,819] I Kiwoom.py | Kiwoom-msg_slot-0071 I DEBUG    > 스크린: 2000, 요청이름: opw00001_req, tr코드: opw00001 --- [100000] 모의투자 조회완료
