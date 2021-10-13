@@ -6,6 +6,7 @@ import time
 import pandas as pd
 import sqlite3
 from log.log_class import *
+from kiwoom_api.api import Kiwoom, DataFeeder
 
 TR_REQ_TIME_INTERVAL = 0.2
 
@@ -24,6 +25,8 @@ class Kiwoom(QAxWidget):
         self.logging = Logging()
         self.condition = {}
         self.condtion_detail = {}
+        self.output_list = []
+
 
     '''
     # kiwoom instance 생성
@@ -48,7 +51,7 @@ class Kiwoom(QAxWidget):
     '''
     # Connect
     '''
-    def comm_connect(self):
+    def commConnect(self):
         self.dynamicCall("CommConnect()")
         self.login_event_loop = QEventLoop()
         self.login_event_loop.exec_()
@@ -226,6 +229,9 @@ class Kiwoom(QAxWidget):
     def _opt10081(self, rqname, trcode):
         data_cnt = self._get_repeat_cnt(trcode, rqname)
 
+        print(trcode)
+
+        list = []
         for i in range(data_cnt):
             date = self._comm_get_data(trcode, "", rqname, i, "일자")
             open = self._comm_get_data(trcode, "", rqname, i, "시가")
@@ -234,12 +240,16 @@ class Kiwoom(QAxWidget):
             close = self._comm_get_data(trcode, "", rqname, i, "현재가")
             volume = self._comm_get_data(trcode, "", rqname, i, "거래량")
 
-            self.ohlcv['date'].append(date)
-            self.ohlcv['open'].append(int(open))
-            self.ohlcv['high'].append(int(high))
-            self.ohlcv['low'].append(int(low))
-            self.ohlcv['close'].append(int(close))
-            self.ohlcv['volume'].append(int(volume))
+            list.append((date, open, high, low, close, volume))
+
+            # self.ohlcv['date'].append(date)
+            # self.ohlcv['open'].append(int(open))
+            # self.ohlcv['high'].append(int(high))
+            # self.ohlcv['low'].append(int(low))
+            # self.ohlcv['close'].append(int(close))
+            # self.ohlcv['volume'].append(int(volume))
+
+        return list
 
     def reset_opw00018_output(self):
         self.opw00018_output = {'single': [], 'multi': []}
@@ -411,17 +421,26 @@ class Kiwoom(QAxWidget):
         # if not req:
         #     print("sendCondition(): 조건검색 요청 실패")
 
-
         # self.receiveTrCondition()
         self.conditionLoop = QEventLoop()
         self.conditionLoop.exec_()
 
+    '''
+    # 현재가 조회
+    '''
+    def OPT10001(self, code):
+        output_list = []
+        # self.set_input_value("종목코드", code)
+        self.dynamicCall("SetInputValue(QString, QString)", "종목코드", "060150")
+        price = self.dynamicCall("GetCommData(QString, QString, int, QString)", "0101", "test_opt10001", 0, "현재가")
+        return price
 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+
     kiwoom = Kiwoom()
-    kiwoom.comm_connect()
+    kiwoom.commConnect()
 
     kiwoom.reset_opw00018_output()
     account_number = kiwoom.get_login_info("ACCNO")
@@ -431,5 +450,38 @@ if __name__ == "__main__":
     kiwoom.comm_rq_data("opw00018_req", "opw00018", 0, "2000")
     kiwoom.getConditionLoad()
 
-    # print(kiwoom.opw00018_output['single'])
-    # print(kiwoom.opw00018_output['multi'])
+    print(kiwoom.opw00018_output['single'])
+    print(kiwoom.opw00018_output['multi'])
+
+    '''
+        feeder = DataFeeder(kiwoom)
+    
+        code = "005930"  # 삼성전자
+    
+        # TR요청(request)에 필요한 parameter는 KOAStudio를 참고하시길 바랍니다.
+        # OPT10004: 주식호가요청
+        params = {"종목코드": code}
+        data = feeder.request(trCode="OPT10004", **params)
+    
+        # OPT10059: 종목별투자자기관별요청
+        params = {
+            "일자": "202003013",
+            "종목코드": code,
+            "금액수량구분": "1",  # 1:금액, 2:수량
+            "매매구분": "0",  # 0:순매수, 1:매수, 2:매도
+            "단위구분": "1",  # 1:단주, 1000:천주
+        }
+        data = feeder.request(trCode='OPT10005', **params)
+    
+        # OPTKWFID: 관심종목정보요청
+        # ※ 예외적으로 requestOPTKWIFID 메서드를 호출
+        params = {
+            "arrCode": "005930;023590",  # 종목코드를 ;로 구분
+            "next": 0,  # 0 연속조회여부 (0: x)
+            "codeCount": 2,  # 종목코드 갯수
+        }
+        data = feeder.request(trCode='OPT10059', **params)
+    
+        print(data)
+    '''
+

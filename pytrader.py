@@ -2,6 +2,9 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5 import uic
+import pandas
+
+
 from Kiwoom import *
 from log.log_class import *
 
@@ -16,7 +19,7 @@ class MyWindow(QMainWindow, form_class):
         self.trade_stocks_done = False
 
         self.kiwoom = Kiwoom()
-        self.kiwoom.comm_connect()
+        self.kiwoom.commConnect()
 
         self.logging = Logging()
 
@@ -40,73 +43,33 @@ class MyWindow(QMainWindow, form_class):
         self.pushButton.clicked.connect(self.send_order)
         self.pushButton_2.clicked.connect(self.check_balance)
         self.pushButton_cond.clicked.connect(self.start_cond)
+        self.pushButton_4.clicked.connect(self.all_buy)
 
         self.load_condition_list()
-        print(self.start_cond())
 
-    def trade_stocks(self):
+    '''
+    # 트레이딩
+    '''
+    def trade_stocks(self, tradeTc, list):
 
         self.logging.logger.debug("### trade Stock ###")
 
-        hoga_lookup = {'지정가': "00", '시장가': "03"}
-        # # -*- coding: utf-8 -*-
-        # f = open("buy_list.txt", 'rt', encoding='cp949')
-        # buy_list = f.readlines()
-        # f.close()
-        # # -*- coding: utf-8 -*-
-        # f = open("sell_list.txt", 'rt', encoding='utf-8')
-        # sell_list = f.readlines()
-        # f.close()
+        # hoga_lookup = {'지정가': "00", '시장가': "03"}
 
         # account
         account = self.comboBox.currentText()
         self.logging.logger.debug("### account :::: " + account + " ###")
+        self.logging.logger.debug("### tradeTc :::: " + tradeTc + " ###")
 
-        # # buy list
-        # for row_data in buy_list:
-        #     split_row_data = row_data.split(';')
-        #     hoga = split_row_data[2]
-        #     code = split_row_data[1]
-        #     num = split_row_data[3]
-        #     price = split_row_data[4]
-        #
-        #     if split_row_data[-1].rstrip() == '매수전':
-        #         self.kiwoom.send_order("send_order_req", "0101", account, 1, code, num, price, hoga_lookup[hoga], "")
-        #
-        # # sell list
-        # for row_data in sell_list:
-        #     split_row_data = row_data.split(';')
-        #     hoga = split_row_data[2]
-        #     code = split_row_data[1]
-        #     num = split_row_data[3]
-        #     price = split_row_data[4]
-        #
-        #     if split_row_data[-1].rstrip() == '매도전':
-        #         self.kiwoom.send_order("send_order_req", "0101", account, 2, code, num, price, hoga_lookup[hoga], "")
-        #
-        # # buy list
-        # for i, row_data in enumerate(buy_list):
-        #     buy_list[i] = buy_list[i].replace("매수전", "주문완료")
-        #
-        # # file update
-        # f = open("buy_list.txt", 'wt')
-        # for row_data in buy_list:
-        #     f.write(row_data)
-        # f.close()
-        #
-        # # sell list
-        # for i, row_data in enumerate(sell_list):
-        #     sell_list[i] = sell_list[i].replace("매도전", "주문완료")
-        #
-        # # file update
-        # f = open("sell_list.txt", 'wt')
-        # for row_data in sell_list:
-        #     f.write(row_data)
-        # f.close()
+        print("### list :::: ", list)
+
+        if tradeTc == "매수":
+            for code in list:
+                self.kiwoom.send_order("reqBuy001", "0101", account, 1, code, 10, 0, "03", "")
 
     '''
     # 자동 주문 리스트 - 사용 X
-    '''
+
     def load_buy_sell_list(self):
         # -*- coding: utf-8 -*-
         f = open("buy_list.txt", 'rt', encoding='cp949')
@@ -144,10 +107,12 @@ class MyWindow(QMainWindow, form_class):
                 self.tableWidget_4.setItem(len(buy_list) + j, i, item)
 
         self.tableWidget_4.resizeRowsToContents()
+    '''
 
     '''
     # Code Changed.
     '''
+
     def code_changed(self):
         code = self.lineEdit.text()
         name = self.kiwoom.get_master_code_name(code)
@@ -156,6 +121,7 @@ class MyWindow(QMainWindow, form_class):
     '''
     # 주문 요청.
     '''
+
     def send_order(self):
         order_type_lookup = {'신규매수': 1, '신규매도': 2, '매수취소': 3, '매도취소': 4}
         hoga_lookup = {'지정가': "00", '시장가': "03"}
@@ -173,12 +139,13 @@ class MyWindow(QMainWindow, form_class):
     '''
     # 서버 연결 상태 확인.
     '''
+
     def timeout(self):
         market_start_time = QTime(9, 0, 0)
         current_time = QTime.currentTime()
 
         if current_time > market_start_time and self.trade_stocks_done is False:
-            self.trade_stocks()
+            # self.trade_stocks()
             self.trade_stocks_done = True
 
         text_time = current_time.toString("hh:mm:ss")
@@ -195,6 +162,7 @@ class MyWindow(QMainWindow, form_class):
     '''
     # 타임 체크
     '''
+
     def timeout2(self):
         if self.checkBox.isChecked():
             self.check_balance()
@@ -202,6 +170,7 @@ class MyWindow(QMainWindow, form_class):
     '''
     # 잔고 체크
     '''
+
     def check_balance(self):
         self.kiwoom.reset_opw00018_output()
         account_number = self.kiwoom.get_login_info("ACCNO")
@@ -270,6 +239,7 @@ class MyWindow(QMainWindow, form_class):
         conditionIndex = self.cbCdtNm.currentText().split(';')[0]
         conditionName = self.cbCdtNm.currentText().split(';')[1]
         self.kiwoom.sendCondition("01111", conditionName, int(conditionIndex), 0)
+
         list = []
         dic = self.kiwoom.condtion_detail
 
@@ -283,6 +253,18 @@ class MyWindow(QMainWindow, form_class):
                 item = QTableWidgetItem(data[j])
                 item.setTextAlignment(Qt.AlignVCenter | Qt.AlignRight)
                 self.tableWidget_4.setItem(i, j, item)
+
+        return list
+
+    def all_buy(self):
+
+        list = []
+        dic = self.kiwoom.condtion_detail
+
+        for key in dic.keys():
+            list.append(key)
+
+        self.trade_stocks("매수", list)
 
         return list
 
